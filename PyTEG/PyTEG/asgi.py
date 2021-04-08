@@ -1,5 +1,5 @@
 """
-ASGI config for pyteg project.
+ASGI config for PyTEG project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pyteg.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'PyTEG.settings')
 
 application = get_asgi_application()

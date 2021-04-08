@@ -1,1 +1,1 @@
-web: gunicorn herokuapp.wsgi --log-file -
+web: gunicorn PyTEG.wsgi
